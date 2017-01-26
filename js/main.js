@@ -52,36 +52,4 @@ function sendMensaje(){
     mensaje.focus();
     
 }
-/*function enviar(evt){
-    if(evento.keyCode==13 && mensaje.value.length!=0){
-        sendMensaje();
-    }
-}
 
-function sendMensaje(){
-    var mensaje=texto.value;
-    var div=document.createElement("div");
-    div.className="w-message w-message-out";
-    var divDos=document.createElement("div");
-    divDos.className="w-message-text";
-    var divTres=document.getElementById("chat");
-    var text=document.createElement("p");
-    var time=document.createElement("div");
-    time.className="time";
-    var porfi=new Date();
-    var hora=porfi.getHours();
-    var minuto=porfi.getMinutes();
-    if(minuto<10){minuto='0'+minuto}
-    divTres.scrollTop=divTres.scrollHeight;
-
-    time.innerHTML=hora+":"+minuto;
-    text.innerHTML=mensaje;
-    div.appendChild(divDos);
-    divDos.appendChild(text);
-    divDos.appendChild(time);
-    divTres.appendChild(div);
-    
-    texto.value="";
-    texto.focus();
-    cambiarIcon();
-}*/
